@@ -10,16 +10,16 @@ if not ("pytest" in sys.modules or "PYTEST_CURRENT_TEST" in os.environ):
     from .utils.bmz_templated_string import BmzJinja2String
 
     NODE_CLASS_MAPPINGS = {
-        "PersistLoadImage": BmzLoadImage,
-        "PersistTransferColors": BmzTransferColors,
-        "PersistVideoSettings": BmzVideoSettings,
+        "BmzLoadImage": BmzLoadImage,
+        "BmzTransferColors": BmzTransferColors,
+        "BmzVideoSettings": BmzVideoSettings,
         "BmzJinja2String": BmzJinja2String,
     }
 
     NODE_DISPLAY_NAME_MAPPINGS = {
-        "PersistLoadImage": "[BMZ] LoadImage",
-        "PersistTransferColors": "[BMZ] TransferColors",
-        "PersistVideoSettings": "[BMZ] VideoSettings",
+        "BmzLoadImage": "[BMZ] LoadImage",
+        "BmzTransferColors": "[BMZ] TransferColors",
+        "BmzVideoSettings": "[BMZ] VideoSettings",
         "BmzJinja2String": "[BMZ] Jinja2String",
     }
 
