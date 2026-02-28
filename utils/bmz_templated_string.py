@@ -27,7 +27,7 @@ class BmzJinja2String:
         "rendered_text",
     )
     FUNCTION = "process"
-    CATEGORY = "Persistence"
+    CATEGORY = "BMZ"
 
     def process(
         self,

@@ -63,7 +63,7 @@ class BmzVideoSettings:
         "height"
     )
     FUNCTION = "process"
-    CATEGORY = "Persistence"
+    CATEGORY = "BMZ"
 
     def process(
         self,

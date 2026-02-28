@@ -28,7 +28,7 @@ class BmzTransferColors:
         "images",
     )
     FUNCTION = "process"
-    CATEGORY = "Persistence"
+    CATEGORY = "BMZ"
 
     def process(
         self,
